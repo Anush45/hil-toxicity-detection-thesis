@@ -1,0 +1,26 @@
+# Datasets & large artifacts
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.zip
+*.parquet
+*.pkl
+*.h5
+models/
+outputs/
+logs/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environments & secrets
+venv/
+.env
+.env/
+
+# macOS
+.DS_Store
